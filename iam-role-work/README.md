@@ -15,7 +15,7 @@
 
 * IAM ロールを使用し、EC2 インスタンスから AWS CLI で Amazon S3 バケットを作成・削除できるようにします。
 
-![](images/iam-role-work.png)
+![](images/iam-role-work2.png)
 
 ### 手順
 
