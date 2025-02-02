@@ -78,13 +78,13 @@
 1. セッションマネージャーで、下記のコマンドを実行します。
     - これにより、AWS CLI 使用時にどの IAM のアイデンティティを使用するかを確認できます。
     - `aws sts get-caller-identity`
-    - 下記のように、適用されている IAM ロールが表示されていることを確認します。
+    - 下記の例ように、適用されている IAM ロールが表示されていることを確認します。
     -
         ```
         {
             "UserId": "AROAQ1V23XYZXYZXYZXYZ:i-0e9f3de789f495722",
             "Account": "123456789012",
-            "Arn": "arn:aws:sts::068048081706:assumed-role/myInstanceRole/i-0e9f3de789f495722"
+            "Arn": "arn:aws:sts::123456789012:assumed-role/myInstanceRole/i-0e9f3de789f495722"
         }
         ```
 
